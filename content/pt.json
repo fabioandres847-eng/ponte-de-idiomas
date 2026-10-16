@@ -1,0 +1,217 @@
+{
+  "code": "pt",
+  "name": "Portugués",
+  "voice": "pt-BR",
+  "units": [
+    {
+      "id": "pt1",
+      "level": "A1",
+      "title": "Saudações",
+      "subtitle": "Saludos y cortesía",
+      "grammar": [
+        "**Oi** es informal (Brasil) y **Olá** sirve para todo. **Bom dia**, **boa tarde** y **boa noite**: «dia» es masculino y «tarde/noite» femeninos.",
+        "**Obrigado** lo dice un hombre y **obrigada** una mujer: concuerda con quien agradece."
+      ],
+      "words": [
+        {
+          "term": "Oi / Olá",
+          "es": "Hola",
+          "ipa": "[oj] / [oˈla]"
+        },
+        {
+          "term": "Bom dia",
+          "es": "Buenos días",
+          "ipa": "[bõ ˈdʒi.ɐ]"
+        },
+        {
+          "term": "Tudo bem?",
+          "es": "¿Todo bien?",
+          "ipa": "[ˈtu.du bẽj]"
+        },
+        {
+          "term": "Obrigado / Obrigada",
+          "es": "Gracias",
+          "ipa": "[o.bɾiˈɡa.du]"
+        },
+        {
+          "term": "Por favor",
+          "es": "Por favor",
+          "ipa": "[puʁ faˈvoʁ]"
+        },
+        {
+          "term": "Até logo",
+          "es": "Hasta luego",
+          "ipa": "[aˈtɛ ˈlɔ.ɡu]"
+        }
+      ]
+    },
+    {
+      "id": "pt2",
+      "level": "A1",
+      "title": "Apresentar-se",
+      "subtitle": "Nombre, origen y trabajo",
+      "grammar": [
+        "**Eu me chamo Ana** o **Meu nome é Ana**. Origen: **Sou da Colômbia** (de + a = da).",
+        "Como en español, el sujeto se puede omitir: **Moro em Bogotá** (vivo en Bogotá)."
+      ],
+      "words": [
+        {
+          "term": "Meu nome é…",
+          "es": "Me llamo…",
+          "ipa": "[ˈmew ˈno.mi ɛ]"
+        },
+        {
+          "term": "Sou de…",
+          "es": "Soy de…",
+          "ipa": "[ˈso dʒi]"
+        },
+        {
+          "term": "Prazer",
+          "es": "Mucho gusto",
+          "ipa": "[pɾaˈzeʁ]"
+        },
+        {
+          "term": "Trabalho como…",
+          "es": "Trabajo como…",
+          "ipa": "[tɾaˈba.ʎu ˈko.mu]"
+        },
+        {
+          "term": "De onde você é?",
+          "es": "¿De dónde eres?",
+          "ipa": "[dʒi ˈõ.dʒi voˈse ɛ]"
+        },
+        {
+          "term": "Moro em…",
+          "es": "Vivo en…",
+          "ipa": "[ˈmɔ.ɾu ẽj]"
+        }
+      ]
+    },
+    {
+      "id": "pt3",
+      "level": "A1",
+      "title": "Ser e estar",
+      "subtitle": "Parecidos al español, con trampas",
+      "grammar": [
+        "**Ser**: eu sou, você é, nós somos, eles são. **Estar**: eu estou, você está, nós estamos, eles estão.",
+        "En Brasil **você** reemplaza a «tú» y se conjuga como «él»: **você está cansado?**"
+      ],
+      "words": [
+        {
+          "term": "Estou cansado",
+          "es": "Estoy cansado",
+          "ipa": "[isˈto kɐ̃ˈsa.du]"
+        },
+        {
+          "term": "Ela é médica",
+          "es": "Ella es médica",
+          "ipa": "[ˈɛ.lɐ ɛ ˈmɛ.dʒi.kɐ]"
+        },
+        {
+          "term": "Somos amigos",
+          "es": "Somos amigos",
+          "ipa": "[ˈso.mus aˈmi.ɡus]"
+        },
+        {
+          "term": "Eles estão em casa",
+          "es": "Están en casa",
+          "ipa": "[ˈe.lis isˈtɐ̃w ẽj ˈka.zɐ]"
+        },
+        {
+          "term": "Está frio",
+          "es": "Hace frío",
+          "ipa": "[isˈta ˈfɾi.u]"
+        },
+        {
+          "term": "Você está pronto?",
+          "es": "¿Estás listo?",
+          "ipa": "[voˈse isˈta ˈpɾõ.tu]"
+        }
+      ]
+    },
+    {
+      "id": "pt4",
+      "level": "A1",
+      "title": "Números e horas",
+      "subtitle": "Del 1 al 20 y qué hora es",
+      "grammar": [
+        "**Que horas são?** Respuesta: **São três horas** o **É uma hora** (singular solo para la una).",
+        "Trampa: **dois** (2, masculino) y **duas** (2, femenino): dois livros, duas horas."
+      ],
+      "words": [
+        {
+          "term": "Um, dois, três",
+          "es": "Uno, dos, tres",
+          "ipa": "[ũ dojs tɾes]"
+        },
+        {
+          "term": "Dezesseis",
+          "es": "Dieciséis",
+          "ipa": "[de.zeˈsejs]"
+        },
+        {
+          "term": "Vinte",
+          "es": "Veinte",
+          "ipa": "[ˈvĩ.tʃi]"
+        },
+        {
+          "term": "Que horas são?",
+          "es": "¿Qué hora es?",
+          "ipa": "[ki ˈɔ.ɾɐs sɐ̃w]"
+        },
+        {
+          "term": "Três e meia",
+          "es": "Tres y media",
+          "ipa": "[tɾes i ˈmej.ɐ]"
+        },
+        {
+          "term": "Meio-dia",
+          "es": "Mediodía",
+          "ipa": "[ˈmej.u ˈdʒi.ɐ]"
+        }
+      ]
+    },
+    {
+      "id": "pt5",
+      "level": "A2",
+      "title": "No restaurante",
+      "subtitle": "Pedir, preguntar y pagar",
+      "grammar": [
+        "Para pedir: **Eu queria…** (yo quería) es la forma más amable. **Me vê um café?** es muy coloquial en Brasil.",
+        "Falsos amigos: **a conta** es la cuenta, pero **esquisito** significa «raro», no «exquisito»."
+      ],
+      "words": [
+        {
+          "term": "Eu queria um café",
+          "es": "Quisiera un café",
+          "ipa": "[ˈew keˈɾi.ɐ ũ kaˈfɛ]"
+        },
+        {
+          "term": "O cardápio, por favor",
+          "es": "La carta, por favor",
+          "ipa": "[u kaʁˈda.pju]"
+        },
+        {
+          "term": "Uma água, por favor",
+          "es": "Un agua, por favor",
+          "ipa": "[ˈu.mɐ ˈa.ɡwɐ]"
+        },
+        {
+          "term": "Está delicioso",
+          "es": "Está delicioso",
+          "ipa": "[isˈta de.li.siˈo.zu]"
+        },
+        {
+          "term": "A conta, por favor",
+          "es": "La cuenta, por favor",
+          "ipa": "[a ˈkõ.tɐ]"
+        },
+        {
+          "term": "Gorjeta",
+          "es": "Propina",
+          "ipa": "[ɡoʁˈʒe.tɐ]"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "code": "en",
+  "name": "Inglés",
+  "voice": "en-US",
+  "units": [
+    {
+      "id": "en1",
+      "level": "A1",
+      "title": "Saludos",
+      "subtitle": "Hola, adiós y cortesía",
+      "grammar": [
+        "**Hi** es informal y **Hello** sirve para todo. Por la mañana se dice **Good morning**, por la tarde **Good afternoon** y por la noche, al llegar, **Good evening**.",
+        "**Good night** solo se usa para despedirse o al ir a dormir."
+      ],
+      "words": [
+        {
+          "term": "Hello",
+          "es": "Hola",
+          "ipa": "/həˈloʊ/"
+        },
+        {
+          "term": "Good morning",
+          "es": "Buenos días",
+          "ipa": "/ɡʊd ˈmɔːrnɪŋ/"
+        },
+        {
+          "term": "How are you?",
+          "es": "¿Cómo estás?",
+          "ipa": "/haʊ ɑːr juː/"
+        },
+        {
+          "term": "Thank you",
+          "es": "Gracias",
+          "ipa": "/ˈθæŋk juː/"
+        },
+        {
+          "term": "Please",
+          "es": "Por favor",
+          "ipa": "/pliːz/"
+        },
+        {
+          "term": "See you later",
+          "es": "Hasta luego",
+          "ipa": "/siː juː ˈleɪtər/"
+        }
+      ]
+    },
+    {
+      "id": "en2",
+      "level": "A1",
+      "title": "Presentarse",
+      "subtitle": "Nombre, origen y trabajo",
+      "grammar": [
+        "Para decir tu nombre: **My name is Ana** o **I'm Ana**. Para el origen: **I'm from Colombia**.",
+        "En inglés el sujeto nunca se omite: «soy de Colombia» es **I am from Colombia**, no «am from Colombia»."
+      ],
+      "words": [
+        {
+          "term": "My name is…",
+          "es": "Me llamo…",
+          "ipa": "/maɪ neɪm ɪz/"
+        },
+        {
+          "term": "I'm from…",
+          "es": "Soy de…",
+          "ipa": "/aɪm frʌm/"
+        },
+        {
+          "term": "Nice to meet you",
+          "es": "Mucho gusto",
+          "ipa": "/naɪs tə miːt juː/"
+        },
+        {
+          "term": "I work as…",
+          "es": "Trabajo como…",
+          "ipa": "/aɪ wɜːrk æz/"
+        },
+        {
+          "term": "Where are you from?",
+          "es": "¿De dónde eres?",
+          "ipa": "/wer ɑːr juː frʌm/"
+        },
+        {
+          "term": "I live in…",
+          "es": "Vivo en…",
+          "ipa": "/aɪ lɪv ɪn/"
+        }
+      ]
+    },
+    {
+      "id": "en3",
+      "level": "A1",
+      "title": "El verbo to be",
+      "subtitle": "Ser y estar en una sola palabra",
+      "grammar": [
+        "**To be** significa ser y estar: **I am**, **you are**, **he/she/it is**, **we are**, **they are**.",
+        "Contracciones habituales: I'm, you're, she's, we're. Negativo: **I'm not**, **she isn't**. Pregunta: **Are you tired?**"
+      ],
+      "words": [
+        {
+          "term": "I am tired",
+          "es": "Estoy cansado",
+          "ipa": "/aɪ æm ˈtaɪərd/"
+        },
+        {
+          "term": "She is a doctor",
+          "es": "Ella es médica",
+          "ipa": "/ʃiː ɪz ə ˈdɑːktər/"
+        },
+        {
+          "term": "We are friends",
+          "es": "Somos amigos",
+          "ipa": "/wiː ɑːr frendz/"
+        },
+        {
+          "term": "They are at home",
+          "es": "Están en casa",
+          "ipa": "/ðeɪ ɑːr æt hoʊm/"
+        },
+        {
+          "term": "It is cold",
+          "es": "Hace frío",
+          "ipa": "/ɪt ɪz koʊld/"
+        },
+        {
+          "term": "Are you ready?",
+          "es": "¿Estás listo?",
+          "ipa": "/ɑːr juː ˈredi/"
+        }
+      ]
+    },
+    {
+      "id": "en4",
+      "level": "A1",
+      "title": "Números y hora",
+      "subtitle": "Del 1 al 20 y qué hora es",
+      "grammar": [
+        "Para preguntar la hora: **What time is it?** Respuesta: **It's three o'clock** o **It's half past three** (3:30).",
+        "Ojo: **thirteen** (13) lleva el acento al final y **thirty** (30) al principio."
+      ],
+      "words": [
+        {
+          "term": "One, two, three",
+          "es": "Uno, dos, tres",
+          "ipa": "/wʌn tuː θriː/"
+        },
+        {
+          "term": "Thirteen",
+          "es": "Trece",
+          "ipa": "/θɜːrˈtiːn/"
+        },
+        {
+          "term": "Thirty",
+          "es": "Treinta",
+          "ipa": "/ˈθɜːrti/"
+        },
+        {
+          "term": "What time is it?",
+          "es": "¿Qué hora es?",
+          "ipa": "/wʌt taɪm ɪz ɪt/"
+        },
+        {
+          "term": "Half past three",
+          "es": "Las tres y media",
+          "ipa": "/hæf pæst θriː/"
+        },
+        {
+          "term": "Quarter to five",
+          "es": "Las cinco menos cuarto",
+          "ipa": "/ˈkwɔːrtər tə faɪv/"
+        }
+      ]
+    },
+    {
+      "id": "en5",
+      "level": "A2",
+      "title": "En el restaurante",
+      "subtitle": "Pedir, preguntar y pagar",
+      "grammar": [
+        "Para pedir con cortesía usa **I'd like…** (me gustaría) o **Can I have…?**",
+        "**The check, please** (EE. UU.) y **The bill, please** (Reino Unido) significan «la cuenta, por favor»."
+      ],
+      "words": [
+        {
+          "term": "I'd like a coffee",
+          "es": "Quisiera un café",
+          "ipa": "/aɪd laɪk ə ˈkɔːfi/"
+        },
+        {
+          "term": "Can I see the menu?",
+          "es": "¿Puedo ver la carta?",
+          "ipa": "/kæn aɪ siː ðə ˈmenjuː/"
+        },
+        {
+          "term": "Water, please",
+          "es": "Agua, por favor",
+          "ipa": "/ˈwɔːtər pliːz/"
+        },
+        {
+          "term": "It's delicious",
+          "es": "Está delicioso",
+          "ipa": "/ɪts dɪˈlɪʃəs/"
+        },
+        {
+          "term": "The check, please",
+          "es": "La cuenta, por favor",
+          "ipa": "/ðə tʃek pliːz/"
+        },
+        {
+          "term": "Is tip included?",
+          "es": "¿La propina está incluida?",
+          "ipa": "/ɪz tɪp ɪnˈkluːdɪd/"
+        }
+      ]
+    }
+  ]
+}

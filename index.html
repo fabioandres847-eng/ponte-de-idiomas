@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ponte de Idiomas</title>
+<meta name="description" content="Aprende inglés y portugués gratis y comparte lo que sabes con la comunidad.">
+<meta name="theme-color" content="#2D4BD3">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>Ponte <span>de Idiomas</span></h1>
+      <p>Aprende inglés y portugués gratis, y comparte lo que sabes. Las lecciones son la base; la comunidad las hace crecer.</p>
+    </div>
+    <div class="row">
+      <div class="langs" role="group" aria-label="Idioma que aprendes" id="langs"></div>
+      <button class="btn ghost install" id="install" hidden>Instalar app</button>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="lecciones" aria-selected="true">Lecciones</button>
+    <button role="tab" data-tab="practica" aria-selected="false">Práctica</button>
+    <button role="tab" data-tab="comunidad" aria-selected="false">Comunidad</button>
+    <button role="tab" data-tab="proyecto" aria-selected="false">Colabora</button>
+  </nav>
+
+  <section class="panel" id="p-lecciones">
+    <div class="eyebrow" id="path-label">Ruta</div>
+    <div class="progress"><div class="bar"><i id="bar"></i></div><span class="score" id="bar-txt"></span></div>
+    <div class="units" id="units"><p class="note">Cargando lecciones…</p></div>
+    <article class="lesson" id="lesson"></article>
+  </section>
+
+  <section class="panel" id="p-practica" hidden>
+    <div class="eyebrow">Repaso rápido con las palabras de tus unidades</div>
+    <div class="row" style="margin:10px 0 18px">
+      <label for="q-unit" class="note">Unidad</label>
+      <select id="q-unit" class="chip"></select>
+      <label for="q-dir" class="note">Dirección</label>
+      <select id="q-dir" class="chip"><option value="to-es">Idioma → español</option><option value="to-tl">Español → idioma</option></select>
+    </div>
+    <div class="quiz" id="quiz"></div>
+  </section>
+
+  <section class="panel" id="p-comunidad" hidden>
+    <div id="mode-banner" class="banner" hidden></div>
+    <div class="grid2">
+      <form class="add" id="add">
+        <h2 style="font-size:22px">Aporta algo</h2>
+        <p class="hint">Una regla gramatical, una frase útil, un truco de pronunciación o un enlace a un video o podcast que te ayudó.</p>
+        <div class="auth" id="auth"></div>
+        <label for="f-lang">Idioma<select id="f-lang"></select></label>
+        <label for="f-kind">Tipo<select id="f-kind"></select></label>
+        <label for="f-title">Título<input id="f-title" maxlength="90" placeholder="Ej.: Cuándo usar «do» y «does»" required></label>
+        <label for="f-body">Explicación<textarea id="f-body" maxlength="1500" placeholder="Explica con tus palabras y pon un ejemplo." required></textarea></label>
+        <label for="f-link">Enlace (opcional)<input id="f-link" type="url" placeholder="https://www.youtube.com/…"></label>
+        <button class="btn" id="f-send" type="submit">Publicar aporte</button>
+        <p class="note" id="f-state"></p>
+      </form>
+      <div>
+        <div class="filters" id="filters"></div>
+        <div class="feed" id="feed"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="p-proyecto" hidden>
+    <div class="eyebrow">Proyecto abierto</div>
+    <h2 style="font-size:26px; margin:6px 0 18px">Esta plataforma la construimos entre todos</h2>
+    <div class="roadmap">
+      <div class="phase"><div class="when">Aprende</div><div><h3>Gratis y sin conexión</h3><ul><li>Instala la app desde el navegador: funciona en el móvil y sin internet.</li><li>Tu progreso se guarda en tu dispositivo.</li></ul></div></div>
+      <div class="phase"><div class="when">Comparte</div><div><h3>Muro de la comunidad</h3><ul><li>Publica explicaciones, frases y enlaces a videos o audios.</li><li>Vota lo más útil: lo mejor sube y puede convertirse en lección oficial.</li></ul></div></div>
+      <div class="phase"><div class="when">Mejora</div><div><h3>Lecciones abiertas en GitHub</h3><ul><li>Cada lección es un archivo de texto en la carpeta <code>content/</code>.</li><li>Cualquiera puede proponer correcciones o unidades nuevas; otra persona las revisa antes de publicarlas.</li><li>Código con licencia MIT y contenido con CC BY-SA 4.0.</li></ul></div></div>
+      <div class="phase"><div class="when">Crece</div><div><h3>Más idiomas</h3><ul><li>Un idioma nuevo es un archivo nuevo en <code>content/</code> y una línea en <code>languages.json</code>.</li></ul></div></div>
+    </div>
+    <p style="margin-top:20px"><a class="btn" id="repo-link" href="#" target="_blank" rel="noopener">Ver el proyecto en GitHub</a></p>
+  </section>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script src="js/config.js"></script>
+<script src="js/community.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>

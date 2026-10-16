@@ -1,0 +1,17 @@
+{
+  "base": "es",
+  "languages": [
+    {
+      "code": "en",
+      "name": "Inglés",
+      "file": "en.json",
+      "color": "#2D4BD3"
+    },
+    {
+      "code": "pt",
+      "name": "Portugués",
+      "file": "pt.json",
+      "color": "#0B7F57"
+    }
+  ]
+}
